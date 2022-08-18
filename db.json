@@ -1,0 +1,89 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": "Japan",
+      "contact": "1-770-736-8031",
+      "website": "hildegard.org"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv",
+      "address": "Wisokyburgh",
+      "contact": "010-692-6593",
+      "website": "anastasia.net"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net",
+      "address": "Romania",
+      "contact": "1-463-123-4447",
+      "website": "ramiro.info"
+    },
+    {
+      "name": "James Marcus",
+      "email": "james@gmail.com",
+      "contact": "987123676521",
+      "address": "UK",
+      "id": 4
+    },
+    {
+      "name": "Lahari",
+      "email": "lahari@gmail.com",
+      "contact": "8712376521",
+      "address": "Chennai",
+      "id": 5
+    },
+    {
+      "name": "Sai",
+      "email": "Sai.Munagala@unilever.com",
+      "contact": "9989684258",
+      "address": "Address",
+      "id": 6
+    },
+    {
+      "name": "Sai",
+      "email": "Sai.Munagala@unilever.com",
+      "contact": "9848022338",
+      "address": "Hyderabad",
+      "id": 7
+    },
+    {
+      "name": "Sai",
+      "email": "Sai.Munagala@unilever.com",
+      "contact": "876543214567",
+      "address": "Hyd",
+      "id": 8
+    },
+    {
+      "name": "saikumar.munagala@gmail.com",
+      "email": "saikumar.munagala@gmail.com",
+      "contact": "9871234567",
+      "address": "Puppalaguda, Manikonda to Narsingi Main Road",
+      "id": 9
+    },
+    {
+      "id": 10
+    },
+    {
+      "id": 11
+    }
+  ],
+  "group": [
+    {
+      "id": 1,
+      "name": "Group A"
+    },
+    {
+      "id": 2,
+      "name": "Group B"
+    }
+  ]
+}

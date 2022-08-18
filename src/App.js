@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+// import Content from "./components/Content";
+// import Header from "./components/header";
+import StateCounter from "./components/counter";
+
+import { Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import EditUser from "./pages/editUser";
+import AddUser from "./pages/addUser";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="ui container ">
+      {/* <StateCounter /> */}
+      {/* <Header />
+      <Content /> */}
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/addUser" component={AddUser} />
+        <Route exact path="/editUser/:id" component={EditUser} />
+      </Switch>
     </div>
   );
 }
